@@ -12,28 +12,29 @@ body {
      
   }
   h1 {
-    font-size: 2em;
+    font-size: 2rem;
     line-height: 1;
     letter-spacing: 1.2em;
     text-align: center;
     font-weight: bold;
     border-bottom:solid 3px rgb(115, 115, 114);
     text-shadow: 1px 1px 2px rgb(115, 115, 114);
-
-
-
-  }
-
-  #basic{
-    font-weight: bold;
-
-
-  }
-  
-  .google-fonts {
+ .google-fonts {
     /* ここにGoogle Fontsを指定します */
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
   }
+
+
+  }
+
+  #basic > p {
+    font-weight: bold;
+     
+
+
+  }
+  
+ 
